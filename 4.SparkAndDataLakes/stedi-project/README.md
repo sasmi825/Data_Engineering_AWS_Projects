@@ -24,24 +24,24 @@ The data is processed in stages:
 
 - **AWS Glue Database:** `stedi`  
 - **S3 Bucket:** `s3://stedi-sri-825/`  
-- **IAM Role for Glue Jobs:** `AWSGlueServiceRole-STEDI`  
+- **IAM Role for Glue Jobs:** `AWSGlueServiceRole-STEDI`
 
-—
-## Landing Tables Schema
+---
+
+## Landing Tables Schemas
 
 The landing tables are created in Athena with the following schemas:
 
 **Customer_landing schema**
+<img width="1898" height="908" alt="Screenshot 2025-08-12 at 12 50 40 PM" src="https://github.com/user-attachments/assets/9041cb16-148f-4b6d-a13b-4cc7837a2aff" />
 
 
 **Accelerometer_landing schema** 
+<img width="1898" height="908" alt="Screenshot 2025-08-12 at 12 51 38 PM" src="https://github.com/user-attachments/assets/14c28257-eea0-4648-b2ee-703011b1ec25" />
 
 
 **Step_trainer_landing schema**
-
-
-
-
+<img width="1898" height="908" alt="Screenshot 2025-08-12 at 12 55 37 PM" src="https://github.com/user-attachments/assets/b08e6bb2-3af8-4659-a3b1-1dee435a563f" />
 
 ---
 ## Glue Jobs and Execution Order
